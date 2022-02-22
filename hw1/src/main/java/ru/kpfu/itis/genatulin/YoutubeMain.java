@@ -1,6 +1,5 @@
 package ru.kpfu.itis.genatulin;
 
-import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -10,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-public class Main {
+public class YoutubeMain {
     public static void main(String[] args) {
         try {
             YoutubeVideosParser youtubeVideosParser = new YoutubeVideosParser();
