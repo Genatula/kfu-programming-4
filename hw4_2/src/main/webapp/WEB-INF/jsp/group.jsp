@@ -19,7 +19,7 @@
             Members:
         </form:label>
         <form:input path="members"/>
-        <form:errors path="members"/>
+        <form:errors path=""/>
         <input type="submit" value="Submit">
     </form:form>
 </body>
