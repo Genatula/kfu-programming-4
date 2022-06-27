@@ -27,10 +27,8 @@ public class GroupController {
 
     @PostMapping
     public String sendForm(
-            RedirectAttributes attributes,
             @Valid @ModelAttribute("group") Group group,
-            BindingResult result,
-            ModelMap modelMap
+            BindingResult result
     ) {
         if (result.hasErrors()) {
             return "group";
