@@ -1,0 +1,27 @@
+### Get all persons
+GET http://localhost:8081/persons
+Accept: application/json
+
+### Create a new person
+POST localhost:8081/persons
+Content-Type: application/json
+
+{
+  "name": "Ilnas"
+}
+
+### Get a person
+GET localhost:8081/persons/1
+Accept: application/json
+
+### Update a person
+PUT localhost:8081/persons/1
+Content-Type: application/json
+
+{
+  "name": "Olya"
+}
+
+### Delete a person
+DELETE localhost:8081/persons/1
+Accept: application/json

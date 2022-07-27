@@ -13,7 +13,6 @@ import javax.persistence.criteria.CriteriaUpdate;
 import javax.persistence.criteria.Root;
 import javax.sql.DataSource;
 import java.util.List;
-
 @Repository
 public class UserRepositoryImpl implements UserRepository {
     private static final String GET_BY_ID_QUERY = "select * from user where id = ?";
